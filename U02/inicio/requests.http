@@ -2,5 +2,9 @@
 GET http://localhost:8080/api/v1/saludo
 Accept: application/json
 
+### Saludo con nombre
+GET http://localhost:8080/api/v1/saludo?nombre=Ada
+Accept: application/json
+
 ### Ruta inexistente: debe responder 404
 GET http://localhost:8080/api/v1/no-existe
